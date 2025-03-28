@@ -14,18 +14,17 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            font-size: 12px;
         }
 
         h1 {
             color: #64B5F6;
-            font-size: 5vw;
+            font-size: 3rem;
             margin-bottom: 5px;
             text-align: center;
         }
 
         h2 {
-            font-size: 3vw;
+            font-size: 2rem;
             color: #1565C0;
             margin-top: 0;
             text-align: center;
@@ -33,7 +32,7 @@
 
         .container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             max-width: 1200px;
             width: 100%;
@@ -45,41 +44,55 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-            transition: transform 0.3s, box-shadow 0.3s;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            width: 100%;
-            max-width: 350px;
-            height: auto;
+            text-align: left;
             border: 3px solid #051522;
-            flex-wrap: wrap;
-        }
-
-        .card-header {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            flex: 1;
         }
 
         .card img {
-            width: 75px;
-            height: 75px;
-            border-radius: 50%;
+            width: 100px;
+            height: 100px;
             border: 3px solid #051522;
             object-fit: cover;
+            margin-left: 20px;
         }
 
-        strong {
-            font-size: 16px;
+        .card-content {
+            flex: 1;
+        }
+
+        .card strong {
+            font-size: 18px;
             color: #0D47A1;
         }
 
-        p {
+        .card p {
             margin: 4px 0;
             font-size: 14px;
             color: #1E88E5;
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            .card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .card img {
+                margin-left: 0;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
@@ -91,7 +104,7 @@
 
     <script>
         const studentsXML = `
-       <students>
+        <students>
             <student>
                 <picture>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/800px-Juvenile_Ragdoll.jpg</picture>
                 <name>Ragdoll</name>
@@ -193,7 +206,7 @@
             const studentCard = document.createElement("div");
             studentCard.classList.add("card");
             studentCard.innerHTML = `
-                <div class="card-header">
+                <div class="card-content">
                     <strong>${student.getElementsByTagName("name")[0].textContent}</strong>
                     <p><strong>Course:</strong> ${student.getElementsByTagName("course")[0].textContent}</p>
                     <p><strong>Year Level / Section:</strong> ${student.getElementsByTagName("year")[0].textContent} ${student.getElementsByTagName("section")[0].textContent}</p>
