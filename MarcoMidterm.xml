@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+            <student>
+                <picture>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/800px-Juvenile_Ragdoll.jpg</picture>
+                <name>Ragdoll</name>
+                <course>BSIS</course>
+                <year>1</year>
+                <section>BG2</section>
+                <adviser>Prof.Ginger</adviser>
+                <schoolYear>2023-2024</schoolYear>
+            </student>
+            <student>
+                <picture>https://www.perfectpetinsurance.co.uk/wp-content/uploads/2023/06/PP_mobile_banner_Redesign_v6_Cat.png</picture>
+                <name>British Shorthair</name>
+                <course>BSIE</course>
+                <year>2</year>
+                <section>BG1</section>
+                <adviser>Prof. Blacky</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://static-az.vets-now.com/uploads/2020/02/cat-2783601_1920-1270x847.jpg</picture>
+                <name>Lynx</name>
+                <course>BSCE</course>
+                <year>3</year>
+                <section>BG3</section>
+                <adviser>Prof. Dizzie</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://www.thesprucepets.com/thmb/XMb-I4hzef2SyFGabzAPi0WnUJ0=/3000x0/filters:no_upscale():strip_icc()/smartest-cat-breeds-4589754-hero-e192f849d9f1442481c47c932cd36aa8.jpg</picture>
+                <name>Choco</name>
+                <course>BSCS</course>
+                <year>2</year>
+                <section>CS1</section>
+                <adviser>Prof. Lim</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://d2zp5xs5cp8zlg.cloudfront.net/image-83814-800.jpg</picture>
+                <name>Siamese</name>
+                <course>BLISS</course>
+                <year>3</year>
+                <section>HG2</section>
+                <adviser>Prof. Arceta</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://th-thumbnailer.cdn-si-edu.com/FXfun5-amVtSoBflz6JkViKTnRA=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/6a/fa/6afa4efa-3f5a-4ea7-90ea-e47173217d59/42-29316901.jpg</picture>
+                <name>Savanna</name>
+                <course>BSED</course>
+                <year>3</year>
+                <section>CG2</section>
+                <adviser>Prof. Recalde</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://upload.wikimedia.org/wikipedia/commons/2/27/Chizhik_Cat_%28cropped%29.jpg</picture>
+                <name>Snowshoe</name>
+                <course>BSIT</course>
+                <year>3</year>
+                <section>DG2</section>
+                <adviser>Prof. Batumbakal</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://i.pinimg.com/736x/bf/cb/d8/bfcbd885fe1c27e5cd753e2b13f2631c.jpg</picture>
+                <name>Maine Coon</name>
+                <course>BSIE</course>
+                <year>4</year>
+                <section>BG2</section>
+                <adviser>Prof. Robles</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://www.thesprucepets.com/thmb/rYn5DKWNTE3lcS_ho4KKuwPaFEo=/1999x0/filters:no_upscale():strip_icc()/GettyImages-1041780090-6f44ac47638a4f1b85fed77ed6cc0e25.jpg</picture>
+                <name>Spinx</name>
+                <course>BSEE</course>
+                <year>2</year>
+                <section>DG1</section>
+                <adviser>Prof. Tepace</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+            <student>
+                <picture>https://www.pumpkin.care/wp-content/uploads/2020/07/2467643531-scaled.jpeg</picture>
+                <name>Tabby</name>
+                <course>BAM</course>
+                <year>2</year>
+                <section>BG2</section>
+                <adviser>Prof. Balot</adviser>
+                <schoolYear>2024-2025</schoolYear>
+            </student>
+        </students>
